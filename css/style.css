@@ -208,7 +208,7 @@ h6,
 }
 @media (max-width: 375px) {
     .direct {
-        font-size: 18px; /* Or any size suitable for mobile */
+        font-size: 5px; /* Or any size suitable for mobile */
     }
     
 }
