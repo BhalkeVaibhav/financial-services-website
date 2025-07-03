@@ -206,10 +206,11 @@ h6,
 .direct {
     font-size: 50px; 
 }
-@media only screen and (max-width: 375px) {
+@media (max-width: 375px) {
     .direct {
-        font-size: 28px; /* Or any size suitable for mobile */
+        font-size: 18px; /* Or any size suitable for mobile */
     }
+    
 }
 
 .page-header {
