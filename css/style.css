@@ -204,9 +204,9 @@ h6,
     }
 }
 
-@media (max-width: 768px){
+@media (max-width: 375px){
     .direct{
-        font-size:20px;
+        font-size:10px;
     }
 }
 
