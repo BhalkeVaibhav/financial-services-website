@@ -204,6 +204,12 @@ h6,
     }
 }
 
+@media (max-width: 768px){
+    .direct{
+        font-size:20px;
+    }
+}
+
 .page-header {
     padding-top: 12rem;
     padding-bottom: 6rem;
