@@ -203,15 +203,7 @@ h6,
         object-fit: cover;
     }
 }
-.direct {
-    font-size: 50px; 
-}
-@media (max-width: 375px) {
-    .direct {
-        font-size: 25px; /* Or any size suitable for mobile */
-    }
-    
-}
+
 
 .page-header {
     padding-top: 12rem;
