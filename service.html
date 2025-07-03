@@ -198,7 +198,8 @@
                                     <p><i class="fa fa-check text-primary me-3"></i>Secured Loans</p>
                                     <p><i class="fa fa-check text-primary me-3"></i>Credit Facilities</p>
                                     <p><i class="fa fa-check text-primary me-3"></i>Cash Advanced</p>
-                                    <a href="" class="btn btn-primary py-3 px-5 mt-3">Read More</a>
+                                    <a href="#callback" class="btn btn-primary py-3 px-5 mt-3">Read More</a>
+
                                 </div>
                             </div>
                         </div>
@@ -211,7 +212,7 @@
 
 
     <!-- Callback Start -->
-    <div class="container-fluid callback mt-5 py-5">
+    <div class="container-fluid callback mt-5 py-5" id="callback">
         <div class="container pt-5">
             <div class="row justify-content-center">
                 <div class="col-lg-7">
@@ -356,5 +357,16 @@
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
 </body>
-
+<script>
+    // Optional if browser doesn't support smooth scrolling natively
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+            e.preventDefault();
+            document.querySelector(this.getAttribute('href')).scrollIntoView({
+                behavior: 'smooth'
+            });
+        });
+    });
+  </script>
+  
 </html>
