@@ -549,3 +549,10 @@ h6,
     background-color: rgb(9, 117, 87);
     color: white;
 }
+
+
+/* 04-07-2025 */
+.funding-image{
+    height: 40px;
+    width: 40px;
+}
